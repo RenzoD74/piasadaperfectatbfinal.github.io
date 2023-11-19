@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff; /* Fondo blanco */
+    color: #000000; /* Texto negro */
+}
+
+.about-us-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.about-us-section {
+    display: flex;
+    align-items: center;
+}
+
+.about-us-text {
+    max-width: 50%;
+    padding-left: 20px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+button.purple-button {
+    background-color: #800080; /* Morado */
+    color: #ffffff; /* Texto blanco */
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button.purple-button:hover {
+    opacity: 0.8;
+}
+button.blue-button {
+    background-color: #0000ff; /* Azul */
+    color: #ffffff; /* Texto blanco */
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button.blue-button:hover {
+    opacity: 0.8;
+}
